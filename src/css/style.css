@@ -768,6 +768,7 @@ h6 {
 #hero .logo-white{
   max-width: 80%;
   height: auto;
+  padding-top: 75px;
 }
 
 /*--------------------------------------------------------------
@@ -775,7 +776,7 @@ h6 {
 --------------------------------------------------------------*/
 #about {
   /* background: url("../assets/img/webpack/about-bg.jpg"); */
-  background-size: cover;
+  background-size:cover;
   overflow: hidden;
   position: relative;
   color: #fff;
