@@ -1543,7 +1543,7 @@ h6 {
   background: #ededed;
   font-weight: bolder;
   border: none;
-  font-size: larger;
+  font-size: large;
 }
 
 .contact-submit{
@@ -1552,7 +1552,7 @@ h6 {
     padding: 5px 29px;
     /* background: #30c368; */
     border: none;
-    font-size: larger;
+    font-size: large;
 }
 .contact-input:focus, .contact-submit:focus {
   outline: #30c368 1px solid;
