@@ -210,9 +210,9 @@ const FlipDown = require("./flipdown");
     });
 
     // Unix timestamp (in seconds)
-    var endDate = 1648449000; //Unix timestamp for 2021-05-15 8 PM
+    var endDate = 1651213800; //Unix timestamp for 2021-05-15 8 PM
 
-    // var endDate = 1621067460;
+    // var endDate = 1651300200;
 
     // Set up FlipDown
     var flipdown = new FlipDown(endDate)
@@ -489,7 +489,7 @@ const FlipDown = require("./flipdown");
     }
     heroC.addEventListener("mousemove", shadow);
 
-    
+
 
     if (window.location.hash) {
       const modalElement = document.querySelector(window.location.hash);
