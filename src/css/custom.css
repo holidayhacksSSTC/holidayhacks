@@ -85,12 +85,16 @@
 
 .button-section {
   margin-top: 10px;
- 
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 #discord-button {
   background-color: #5c7ae9;
-  margin-top: 5px;
+  /* margin-top: 5px; */
+  margin-left: 10px;
   width: 275px;
   height: 44px;
   display: flex;
@@ -199,3 +203,11 @@
 }
 
 /* Hello Ayan-TheCOdeKing */
+
+@media screen and (max-width:550px) {
+  #discord-button {
+  margin-top: 5px;
+  margin-left: 0;
+ 
+}
+}
