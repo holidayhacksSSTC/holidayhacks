@@ -1538,6 +1538,10 @@ h6 {
 
 /* ------------------ BY AALIYA ----------------- */
 
+.contact-email.box{
+  border:none !important;
+}
+
 .contact-input{
   border-radius: 17px;
   background: #ededed;
