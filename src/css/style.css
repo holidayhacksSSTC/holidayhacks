@@ -1554,12 +1554,13 @@ h6 {
     border-radius: 20px;
     font-weight: bolder;
     padding: 5px 29px;
-    /* background: #30c368; */
+    background: #7ae5f5;
+    color: white;
     border: none;
     font-size: large;
 }
 .contact-input:focus, .contact-submit:focus {
-  outline: #30c368 1px solid;
+  outline: #7ae5f5 1px solid;
   box-shadow: none;
 }
 
