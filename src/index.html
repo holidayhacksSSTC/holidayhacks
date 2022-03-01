@@ -47,6 +47,12 @@
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" /> -->
   <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
 
+  <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js'></script>
+<script type='text/javascript'>
+   (function(){
+      emailjs.init('<userId>');
+   })();
+</script>
 </head>
 
 <body>
@@ -2179,11 +2185,11 @@
             
             <div class="contact-email box p-4">
               <h3>Get in Touch</h3>
-              <input maxlength="100" type="text" class="form-control mb-3 contact-input" id="inlineFormInput" placeholder="Name">
-              <input maxlength="100" type="email" class="form-control mb-3 contact-input" id="inlineFormInput" placeholder="Email">
-              <input maxlength="100" type="text" class="form-control mb-3 contact-input" id="inlineFormInput" placeholder="Subject">
-              <textarea maxlength="200" class="form-control mb-3 contact-input" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-              <button type="button" class="btn contact-submit">Send Email</button>  
+              <input maxlength="100" type="text" class="form-control mb-3 contact-input" id="name" placeholder="Name">
+              <input maxlength="100" type="email" class="form-control mb-3 contact-input" id="email" placeholder="Email">
+              <input maxlength="100" type="text" class="form-control mb-3 contact-input" id="subject" placeholder="Subject">
+              <textarea maxlength="200" class="form-control mb-3 contact-input" id="message" rows="3" placeholder="Message"></textarea>
+              <button type="button" class="btn contact-submit" id="email-button">Send Email</button>  
               <!-- <i class="bi bi-envelope"></i>
               <h3>Email</h3>
               <p>
