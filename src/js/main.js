@@ -1,5 +1,5 @@
 import GreenLeaf from "../assets/img/webpack/green.png";
-
+import email from './email.js'
 import "../css/style.css";
 import "../css/custom.css";
 import "../css/flipdown.css";
