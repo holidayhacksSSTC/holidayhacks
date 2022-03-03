@@ -2001,8 +2001,10 @@ h6 {
 
 /* Coming soon */
 .cming-soon{
-  color: #03a9f4;
-    text-shadow: 0 0 2px black
+  color: #1c971c;
+  font-weight:bold;
+  font-style: oblique;
+    
 }
 .sponsor-title .cming-soon{
   font-size: 2rem;
@@ -2010,7 +2012,7 @@ h6 {
 
 }
 .judsec{
-  color:#ad5827;
+  color:#1c971c;
   font-weight:bold;
   font-style: oblique;
 }
