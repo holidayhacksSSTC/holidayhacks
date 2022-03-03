@@ -1,3 +1,6 @@
+/* Fonts start */
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+/* Fonts end */
 /*--------------------------------------------------------------
   Preloader 
 --------------------------------------------------------------*/
@@ -2000,19 +2003,115 @@ h6 {
 }
 
 /* Coming soon */
-.cming-soon{
-  color: #1c971c;
-  font-weight:bold;
-  font-style: oblique;
-    
-}
-.sponsor-title .cming-soon{
+
+ .cming-soon{
   font-size: 2rem;
   padding: 1rem 0;
+   font-family: 'League Gothic', sans-serif;
+  color:#3d7a81;
+  font-weight:bold;
+  text-shadow: 0 0 3px #0000003d;
 
 }
 .judsec{
-  color:#1c971c;
+  font-family: 'League Gothic', sans-serif;
+  color:#3d7a81;
   font-weight:bold;
-  font-style: oblique;
+  text-shadow: 0 0 3px #0000003d;
+
+  /* font-style: oblique; */
 }
+
+/* Coming SOon ANimation start */
+.coming-soon-dot {
+      margin: 0 auto;
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #19ae74;
+  color: #9880ff;
+  animation: dotElastic 1s infinite linear;
+}
+
+.coming-soon-dot::before, .coming-soon-dot::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.coming-soon-dot::before {
+  left: -15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #f25764;
+  color: #9880ff;
+  animation: dotElasticBefore 1s infinite linear;
+}
+
+.coming-soon-dot::after {
+  left: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #2196f3;
+  color: #9880ff;
+  animation: dotElasticAfter 1s infinite linear;
+}
+
+@keyframes dotElasticBefore {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1, 1.5);
+  }
+  50% {
+    transform: scale(1, 0.67);
+  }
+  75% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes dotElastic {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1, 1.5);
+  }
+  75% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes dotElasticAfter {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1, 0.67);
+  }
+  75% {
+    transform: scale(1, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+/* Coming SOon ANimation end */
