@@ -47,12 +47,20 @@
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" /> -->
   <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
 
+  <!-- Email js -->
   <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js'></script>
 <script type='text/javascript'>
    (function(){
       emailjs.init('<userId>');
    })();
 </script>
+
+<!-- SwiperJs -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
 </head>
 
 <body>
@@ -93,7 +101,7 @@
             <a rel="noopener" class="nav-link scrollto" href="#supporters">Sponsors</a>
           </li>
           <li>
-            <a rel="noopener" class="nav-link scrollto" href="team.html">Team</a>
+            <a rel="noopener" class="nav-link scrollto" href="./team.html">Team</a>
           </li>
           <li><a rel="noopener" class="nav-link scrollto" href="#faq">FAQ</a></li>
           <li><a rel="noopener" class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -607,6 +615,30 @@
     </div>
 
 
+
+    <!-- ======= Broschure Section ======= -->
+ <section id="pre-hack-schedule" class="schedule section-with-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Brochure</h2>
+          <p>Become the part of HolidayHacks</p>
+        </div>
+         <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+  
+        <div class="swiper-slide"><img src="./assets//bros/bros1.png" alt=""></div>
+        <div class="swiper-slide"><img src="./assets//bros/bros2.png" alt=""></div>
+        <div class="swiper-slide"><img src="./assets//bros/bros3.png" alt=""></div>
+        <div class="swiper-slide"><img src="./assets//bros/bros4.png" alt=""></div>
+        <div class="swiper-slide"><img src="./assets//bros/bros5.png" alt=""></div>
+        <div class="swiper-slide"><img src="./assets//bros/bros6.png" alt=""></div>
+        <div class="swiper-slide"><img src="./assets//bros/bros6.png" alt=""></div>
+      </div>
+ <!-- <div class="swiper-pagination"></div> -->
+    </div>
+        </div>
+        </section>
+    <!-- ======= end Broschure Section ======= -->
 
     <!-- ======= Pre-hack schedule Section ======= -->
     <section id="pre-hack-schedule" class="schedule section-with-bg">
@@ -2350,6 +2382,27 @@
 
   <!-- Template Main JS File -->
   <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+
+
+  <!-- Swiper js -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+  <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+
 </body>
 
 </html>
