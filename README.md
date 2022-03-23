@@ -1,6 +1,6 @@
 # Holiday-Hacks
 
-Check our website from [here.](https://bhilaihacks.co/)
+Check our website from [here.](https://www.holidayhacks.co)
 
 
 # Setup
