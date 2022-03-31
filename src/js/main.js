@@ -1,5 +1,5 @@
 import GreenLeaf from "../assets/img/webpack/green.png";
-import email from './email.js'
+
 import "../css/style.css";
 import "../css/custom.css";
 import "../css/flipdown.css";
@@ -212,7 +212,7 @@ const FlipDown = require("./flipdown");
     // Unix timestamp (in seconds)
     var endDate = 1651213800; //Unix timestamp for 2021-05-15 8 PM
 
-    // var endDate = 1651300200;
+    // var endDate = 1621067460;
 
     // Set up FlipDown
     var flipdown = new FlipDown(endDate)
@@ -237,7 +237,7 @@ const FlipDown = require("./flipdown");
 
   // For Flipdown.js
   document.addEventListener("DOMContentLoaded", () => {
-    window.particlesJS("hero", {
+    window.particlesJS("heros", {
       particles: {
         number: {
           value: 80,
@@ -347,7 +347,7 @@ const FlipDown = require("./flipdown");
       },
       retina_detect: true,
     });
-    window.particlesJS("contact-sec", {
+    window.particlesJS("contact-secs", {
       particles: {
         number: {
           value: 80,
