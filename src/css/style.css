@@ -776,7 +776,7 @@ h6 {
 #hero .logo-white{
   max-width: 500px;
   height: auto;
-      margin-left: 3rem;
+      /* margin-left: 3rem; */
   /* padding-top: 75px; */
 }
 #hero .hackathon-heading-smd{
@@ -1285,8 +1285,8 @@ h6 {
   max-width: 250px !important;
   transition: all 0.4s ease-in-out;
 }
-#supporters .hackclub {
-  max-width: 150px !important;
+#supporters .resolve-fix {
+  max-width: 100px !important;
   transition: all 0.4s ease-in-out;
 }
 
