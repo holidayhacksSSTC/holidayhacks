@@ -772,7 +772,7 @@ h6 {
 }
 
 #hero .logo-white{
-  max-width: 250px;
+  max-width: 500px;
   height: auto;
   /* padding-top: 75px; */
 }
@@ -1279,6 +1279,11 @@ h6 {
 }
 
 #supporters img {
+  max-width: 250px !important;
+  transition: all 0.4s ease-in-out;
+}
+#supporters .hackclub {
+  max-width: 150px !important;
   transition: all 0.4s ease-in-out;
 }
 
@@ -1510,7 +1515,7 @@ h6 {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #198754;
+  color: #f25764;
 }
 
 #contact .contact-info address,
@@ -1528,7 +1533,7 @@ h6 {
 }
 
 #contact .contact-info a {
-  color: #2b7e49;
+  color: #000;
 }
 
 #contact .contact-info a:hover {
