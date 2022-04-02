@@ -642,13 +642,15 @@ h6 {
   color: #cbfbcb;
   /* font-weight: 600; */
   font-size: 20px;
+      margin-top: 10px;
   text-shadow: 5px 3px 4px rgb(36 36 36);
   /* margin-bottom: 70px; */
 }
 
 @media (max-width: 991px) {
   #hero p {
-    font-size: 16px;
+        margin-top: 10px;
+    font-size: 1.3rem;
     margin-bottom: 80px !important;
   }
   #hero .sstc-title{
@@ -772,8 +774,9 @@ h6 {
 }
 
 #hero .logo-white{
-  max-width: 250px;
+  max-width: 500px;
   height: auto;
+      /* margin-left: 3rem; */
   /* padding-top: 75px; */
 }
 #hero .hackathon-heading-smd{
@@ -1279,6 +1282,11 @@ h6 {
 }
 
 #supporters img {
+  max-width: 250px !important;
+  transition: all 0.4s ease-in-out;
+}
+#supporters .resolve-fix {
+  max-width: 100px !important;
   transition: all 0.4s ease-in-out;
 }
 
@@ -1510,7 +1518,7 @@ h6 {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #198754;
+  color: #f25764;
 }
 
 #contact .contact-info address,
@@ -1528,7 +1536,7 @@ h6 {
 }
 
 #contact .contact-info a {
-  color: #2b7e49;
+  color: #000;
 }
 
 #contact .contact-info a:hover {
