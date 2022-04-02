@@ -1,6 +1,6 @@
 
 let button = document.querySelector("#email-button")
- 
+ let example = 2;
  
 
 button.addEventListener("click",(e)=>{
