@@ -93,7 +93,6 @@
 
 #discord-button {
   background-color: #5c7ae9;
-  /* margin-top: 5px; */
   margin-left: 10px;
   width: 275px;
   height: 44px;
@@ -140,11 +139,6 @@
 .gold-border {
   border-color: #ffd700 !important;
 }
-
-/* .gold-border a {
-  color: #ffd700!important;
-  text-shadow: 1px 1px 1px #8d8d8d!important
-} */
 
 .silver-border {
   border-color: #c0c0c0 !important;

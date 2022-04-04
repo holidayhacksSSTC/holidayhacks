@@ -288,8 +288,6 @@
 
 .example {
   font-family: "Roboto", sans-serif;
-  /* width: 550px;
-  height: 378px; */
   width: fit-content;
   height: fit-content;
   margin: auto;
