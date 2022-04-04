@@ -1560,13 +1560,6 @@ box-shadow: 0 0 5px black;
 
 /* ------------------ BY AALIYA ----------------- */
 
-/* @media (min-width: 768px) {
-  #contact .contact-address,
-  #contact .contact-phone,
-  #contact .contact-email {
-  }
-} */
-
 @media (min-width: 768px) {
   #contact .contact-phone {
     border-left: 1px solid #ddd;
