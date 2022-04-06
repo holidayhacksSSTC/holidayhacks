@@ -11,15 +11,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // console.log(orders);
 
-    organizersTeamSection.childNodes.forEach((el) => {
-      // console.log(el);
+    // organizersTeamSection.childNodes.forEach((el) => {
+    //   // console.log(el);
 
-      const randomOrder = orders[Math.floor(Math.random() * teamQuantity)];
-      orders.splice(randomOrder, 1);
-      teamQuantity--;
+    //   const randomOrder = orders[Math.floor(Math.random() * teamQuantity)];
+    //   orders.splice(randomOrder, 1);
+    //   teamQuantity--;
 
-      el.classList.add("order-" + randomOrder.toString());
-    });
+    //   el.classList.add("order-" + randomOrder.toString());
+    // });
 
     teamSection.classList.remove("d-none");
   }

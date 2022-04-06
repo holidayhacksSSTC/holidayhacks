@@ -3,7 +3,6 @@ import GreenLeaf from "../assets/img/webpack/green.png";
 import "../css/style.css";
 import "../css/custom.css";
 import "../css/flipdown.css";
-// import "./particles";
 
 import "../js/team";
 
