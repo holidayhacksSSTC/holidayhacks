@@ -1,4 +1,4 @@
-import GreenLeaf from "../assets/img/webpack/green.png";
+import GreenLeaf from "../assets/img/webpack/bulb.png";
 
 import "../css/style.css";
 import "../css/custom.css";
