@@ -195,10 +195,10 @@ import BigLogo from "../assets/img/webpack/logo-white.png";
   //   selector: ".gallery-lightbox",
   // });
 
-  on("show.bs.modal", "#buy-ticket-modal", function (event) {
-    select("#buy-ticket-modal #ticket-type").value =
-      event.relatedTarget.getAttribute("data-ticket-type");
-  });
+  // on("show.bs.modal", "#buy-ticket-modal", function (event) {
+  //   select("#buy-ticket-modal #ticket-type").value =
+  //     event.relatedTarget.getAttribute("data-ticket-type");
+  // });
 
   window.addEventListener("load", () => {
     AOS.init({
@@ -213,14 +213,14 @@ import BigLogo from "../assets/img/webpack/logo-white.png";
 
    
 
-    var eleCon = document.getElementById("contact");
-    document.getElementById("contact-sec").style.height =
-      eleCon.offsetHeight - 60 + "px";
+    // var eleCon = document.getElementById("contact");
+    // document.getElementById("contact-sec").style.height =
+    //   eleCon.offsetHeight - 60 + "px";
 
     // SHOW EFFEC WITH MOUSE
 
     var heroC = document.querySelector("#hero");
-    var textC = heroC.querySelector("#herotext");
+    // var textC = heroC.querySelector("#herotext");
 
     function shadow(e) {
       // Show the animation only on small screens
@@ -239,7 +239,8 @@ import BigLogo from "../assets/img/webpack/logo-white.png";
         const xwalk = (x / width) * walk - walk / 2;
         const ywalk = (y / height) * walk - walk / 2;
 
-        textC.style.textShadow = `${-xwalk}px ${-ywalk}px 4px rgb(10,10,10)`;
+       
+        // textC.style.textShadow = `${-xwalk}px ${-ywalk}px 4px rgb(10,10,10)`;
       }
     }
     heroC.addEventListener("mousemove", shadow);
