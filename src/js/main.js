@@ -1,4 +1,4 @@
-import GreenLeaf from "../assets/img/webpack/green.png";
+// import GreenLeaf from "../assets/img/webpack/green.png";
 
 import "../css/style.css";
 import "../css/custom.css";
@@ -9,7 +9,7 @@ import "../js/team";
 import ShortLogo from "../assets/img/webpack/bulb.png";
 import BigLogo from "../assets/img/webpack/logo-white.png";
 
-const FlipDown = require("./flipdown");
+// const FlipDown = require("./flipdown");
 
 (function () {
   "use strict";
@@ -195,10 +195,10 @@ const FlipDown = require("./flipdown");
   //   selector: ".gallery-lightbox",
   // });
 
-  on("show.bs.modal", "#buy-ticket-modal", function (event) {
-    select("#buy-ticket-modal #ticket-type").value =
-      event.relatedTarget.getAttribute("data-ticket-type");
-  });
+  // on("show.bs.modal", "#buy-ticket-modal", function (event) {
+  //   select("#buy-ticket-modal #ticket-type").value =
+  //     event.relatedTarget.getAttribute("data-ticket-type");
+  // });
 
   window.addEventListener("load", () => {
     AOS.init({
@@ -211,260 +211,16 @@ const FlipDown = require("./flipdown");
     // Unix timestamp (in seconds)
     var endDate = 1651213800; //Unix timestamp for 2021-05-15 8 PM
 
-    // var endDate = 1621067460;
+   
 
-    // Set up FlipDown
-    var flipdown = new FlipDown(endDate)
-      // Start the countdown
-      .start()
-      // Do something when the countdown ends
-      .ifEnded(() => {
-        const flipDownTitle = document.querySelector("#flipdown-title");
-
-        flipDownTitle.innerText = "Hackathon Ended! Wait for your results 🎉";
-
-        // Launch confetti after 2 seconds
-        confetti({
-          particleCount: 500,
-          resize: true,
-          spread: 360,
-        });
-        // Write Celebration animation code
-        // console.log("The countdown has ended!");
-      });
-  });
-
-  // For Flipdown.js
-  document.addEventListener("DOMContentLoaded", () => {
-    window.particlesJS("heros", {
-      particles: {
-        number: {
-          value: 80,
-          density: {
-            enable: true,
-            value_area: 600,
-          },
-        },
-        color: {
-          value: "#ffffff",
-        },
-        shape: {
-          type: "image",
-          stroke: {
-            width: 0,
-            color: "#000000",
-          },
-          polygon: {
-            nb_sides: 6,
-          },
-          image: {
-            src: GreenLeaf,
-            width: 200,
-            height: 200,
-          },
-        },
-        opacity: {
-          value: 0.5,
-          random: true,
-          anim: {
-            enable: false,
-            speed: 1,
-            opacity_min: 0.1,
-            sync: false,
-          },
-        },
-        size: {
-          value: 8,
-          random: true,
-          anim: {
-            enable: true,
-            speed: 40,
-            size_min: 0.1,
-            sync: false,
-          },
-        },
-        line_linked: {
-          enable: false,
-          distance: 500,
-          color: "#ffffff",
-          opacity: 0.4,
-          width: 2,
-        },
-        move: {
-          enable: true,
-          speed: 6,
-          direction: "bottom-left",
-          random: false,
-          straight: false,
-          out_mode: "out",
-          bounce: false,
-          attract: {
-            enable: false,
-            rotateX: 2000,
-            rotateY: 3000,
-          },
-        },
-      },
-      interactivity: {
-        detect_on: "canvas",
-        events: {
-          onhover: {
-            enable: true,
-            mode: "repulse",
-          },
-          onclick: {
-            enable: true,
-            mode: "repulse",
-          },
-          resize: true,
-        },
-        modes: {
-          grab: {
-            distance: 400,
-            line_linked: {
-              opacity: 0.5,
-            },
-          },
-          bubble: {
-            distance: 400,
-            size: 40,
-            duration: 0.3,
-            opacity: 1,
-            speed: 3,
-          },
-          repulse: {
-            distance: 100,
-            duration: 10,
-          },
-          push: {
-            particles_nb: 4,
-          },
-          remove: {
-            particles_nb: 2,
-          },
-        },
-      },
-      retina_detect: true,
-    });
-    window.particlesJS("contact-secs", {
-      particles: {
-        number: {
-          value: 80,
-          density: {
-            enable: true,
-            value_area: 600,
-          },
-        },
-        color: {
-          value: "#ffffff",
-        },
-        shape: {
-          type: "image",
-          stroke: {
-            width: 0,
-            color: "#000000",
-          },
-          polygon: {
-            nb_sides: 6,
-          },
-          image: {
-            src: GreenLeaf,
-            width: 200,
-            height: 200,
-          },
-        },
-        opacity: {
-          value: 0.5,
-          random: true,
-          anim: {
-            enable: false,
-            speed: 1,
-            opacity_min: 0.1,
-            sync: false,
-          },
-        },
-        size: {
-          value: 8,
-          random: true,
-          anim: {
-            enable: true,
-            speed: 40,
-            size_min: 0.1,
-            sync: false,
-          },
-        },
-        line_linked: {
-          enable: false,
-          distance: 500,
-          color: "#ffffff",
-          opacity: 0.4,
-          width: 2,
-        },
-        move: {
-          enable: true,
-          speed: 6,
-          direction: "bottom-left",
-          random: false,
-          straight: false,
-          out_mode: "out",
-          bounce: false,
-          attract: {
-            enable: false,
-            rotateX: 2000,
-            rotateY: 3000,
-          },
-        },
-      },
-      interactivity: {
-        detect_on: "canvas",
-        events: {
-          onhover: {
-            enable: true,
-            mode: "repulse",
-          },
-          onclick: {
-            enable: true,
-            mode: "repulse",
-          },
-          resize: true,
-        },
-        modes: {
-          grab: {
-            distance: 400,
-            line_linked: {
-              opacity: 0.5,
-            },
-          },
-          bubble: {
-            distance: 400,
-            size: 40,
-            duration: 0.3,
-            opacity: 1,
-            speed: 3,
-          },
-          repulse: {
-            distance: 100,
-            duration: 10,
-          },
-          push: {
-            particles_nb: 4,
-          },
-          remove: {
-            particles_nb: 2,
-          },
-        },
-      },
-      retina_detect: true,
-    });
-
-    var eleCon = document.getElementById("contact");
-    document.getElementById("contact-sec").style.height =
-      eleCon.offsetHeight - 60 + "px";
+    // var eleCon = document.getElementById("contact");
+    // document.getElementById("contact-sec").style.height =
+    //   eleCon.offsetHeight - 60 + "px";
 
     // SHOW EFFEC WITH MOUSE
 
     var heroC = document.querySelector("#hero");
-    var textC = hero.querySelector("#herotext");
+    // var textC = heroC.querySelector("#herotext");
 
     function shadow(e) {
       // Show the animation only on small screens
@@ -483,7 +239,8 @@ const FlipDown = require("./flipdown");
         const xwalk = (x / width) * walk - walk / 2;
         const ywalk = (y / height) * walk - walk / 2;
 
-        textC.style.textShadow = `${-xwalk}px ${-ywalk}px 4px rgb(10,10,10)`;
+       
+        // textC.style.textShadow = `${-xwalk}px ${-ywalk}px 4px rgb(10,10,10)`;
       }
     }
     heroC.addEventListener("mousemove", shadow);
