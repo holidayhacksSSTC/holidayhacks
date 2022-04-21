@@ -1,4 +1,4 @@
-import GreenLeaf from "../assets/img/webpack/green.png";
+import GreenLeaf from "../assets/img/webpack/bulb.png";
 
 import "../css/style.css";
 import "../css/custom.css";
@@ -7,8 +7,8 @@ import "../css/flipdown.css";
 
 import "../js/team";
 
-import ShortLogo from "../assets/img/webpack/bh-icon.png";
-import BigLogo from "../assets/img/webpack/bh_logo_regular.png";
+import ShortLogo from "../assets/img/webpack/bulb.png";
+import BigLogo from "../assets/img/webpack/logo-white.png";
 
 const FlipDown = require("./flipdown");
 
