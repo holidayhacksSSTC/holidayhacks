@@ -66,7 +66,7 @@ module.exports = {
     }),
     new MiniCssExtractPlugin(),
   ],
-
+  performance: { hints: false },
   devServer: {
     compress: true,
   },
